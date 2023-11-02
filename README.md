@@ -1,3 +1,4 @@
-# Zenn CLI
+zenn用リポジトリ
 
-* [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)
+Copyright (c) btanno 2023-
+
