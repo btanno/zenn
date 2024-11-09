@@ -1,4 +1,6 @@
 #!/bin/sh
 
-docker compose run --rm zenn npx zenn new:article
+USER=`id -u $USER`
+GROUP=`id -g $USER`
 
+docker compose run -u ${USER}:${GROUP} --rm zenn npx zenn new:article
